@@ -21,4 +21,3 @@ O seguinte projeto está sendo desenvolvido para a discplina de Sistemas embarca
 
 - O projeto deve ser capaz de segurar uma carga leve e não derruba-la enquanto ele realiza o seu movimento. O acionamento da garra sera feito por meio de um servo motor. 
 
-- 
