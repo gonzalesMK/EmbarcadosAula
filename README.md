@@ -1,7 +1,7 @@
-# EmbarcadosAula
-Projeto da disciplina de embarcados (2020).
+# Projeto Picn'n Place
 
-Materiais:
+
+## Materiais:
 
   -Beagle Black Bone
   -Controlador EPOS2  
@@ -9,4 +9,4 @@ Materiais:
   -Ultrasom HC-SR04
   
   
-Requisitos:
+## Requisitos:
