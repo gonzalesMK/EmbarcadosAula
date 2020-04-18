@@ -1,7 +1,7 @@
 # Projeto Pick and Place
 
 ## Descrição
-O seguinte projeto está sendo desenvolvido para a discplina de Sistemas embarcados do curso de engenharia mecatrônica. O objetivo do projeto é desenvolver um sistema de pick and place de um grau de liberdade que seja capaz de detectar a presênça de uma carga, realizar a sua movimentação, agarrar o objeto e leva-lo para outro lugar. 
+O seguinte projeto está sendo desenvolvido para a discplina de Sistemas embarcados do curso de engenharia mecatrônica. O objetivo do projeto é desenvolver um sistema de pick and place de um grau de liberdade que seja capaz de detectar a presênça de uma carga, realizar a sua movimentação, agarrar o objeto e leva-lo para outro lugar. Os materiais utilizados na realização desse projeto serão de fácil acesso e custo reduzido.
 
 ## Materiais:
 - Beagle Black Bone.
@@ -17,4 +17,6 @@ O seguinte projeto está sendo desenvolvido para a discplina de Sistemas embarca
 
 - O projeto deve ser capaz de detectar a presênça da carga para movimentação. Para isso vamos utilizar o sensor ultrasom HC-SR04, detectando a presênça a carga medindo a distância detectada.
 
-- O microcontrolador utilizado deve ser capaz de realizar a leitura de portar digitais, comunicar com o controlador de motores, aceitar a utilização de diversas bibliotecas de programação, como a do controlador EPOS, e 
+- O microcontrolador utilizado deve ser capaz de realizar a leitura de portar digitais, comunicar com o controlador de motores e aceitar a utilização de diversas bibliotecas de programação necessárias, como a do controlador EPOS. A Beagle Black Bone atende a todos esses requisitos.
+
+- 
