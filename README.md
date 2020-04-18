@@ -19,4 +19,6 @@ O seguinte projeto está sendo desenvolvido para a discplina de Sistemas embarca
 
 - O microcontrolador utilizado deve ser capaz de realizar a leitura de portar digitais, comunicar com o controlador de motores e aceitar a utilização de diversas bibliotecas de programação necessárias, como a do controlador EPOS. A Beagle Black Bone atende a todos esses requisitos.
 
+- O projeto deve ser capaz de segurar uma carga leve e não derruba-la enquanto ele realiza o seu movimento. O acionamento da garra sera feito por meio de um servo motor. 
+
 - 
