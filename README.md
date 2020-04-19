@@ -7,7 +7,7 @@ O seguinte projeto está sendo desenvolvido para a discplina de Sistemas embarca
 - Beagle Black Bone.
 - Controlador EPOS2.   
 - Motor Maxon com encoder.
-- Ultrasom HC-SR04.
+- Sensor ultrasônico HC-SR04.
 - Garra.
 - Servo motor.
 
