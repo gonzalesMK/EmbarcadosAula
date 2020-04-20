@@ -13,9 +13,9 @@ O seguinte projeto está sendo desenvolvido para a discplina de Sistemas embarca
 
 ## Requisitos:
 
-- O projeto deve ser capaz de posicionar o motor de tal forma que o posicionamento final da carga seja precisa. Ao utilizarmos o controlador EPOS teremos fácil acesso aos valores do encoder do motor e dos valores da velocidade do motor, dessa forma o controle da posição final será de fácil implementação.
+- O projeto deve ser capaz de posicionar o motor de tal forma que o posicionamento final da carga seja precisa. Ao utilizarmos o controlador EPOS teremos fácil acesso aos valores do encoder do motor e dos valores da velocidade do motor, dessa forma o controle da posição final será de fácil implementação. Será utilizado a biblioteca própria da EPOS, que pode ser baixada, instalada e ter suas funções estudadas no seguinte PDF: https://www.maxongroup.com/medias/sys_master/8823917281310.pdf
 
-- O projeto deve ser capaz de detectar a presênça da carga para movimentação. Para isso vamos utilizar o sensor ultrasom HC-SR04, detectando a presênça a carga medindo a distância detectada. Para realizar a leitura desse sensor é necessário somente realizar a leitura de dois pinos e fazer uma contagem de tempo no software.
+- O projeto deve ser capaz de detectar a presênça da carga para movimentação. Para isso vamos utilizar o sensor ultrasom HC-SR04, detectando a presênça a carga medindo a distância detectada. Para realizar a leitura desse sensor é necessário somente realizar a leitura de dois pinos e fazer uma contagem de tempo no software. Para realizar a leitura dos pinos, atualmente se cogita utilizar esse repositório: https://github.com/mkaczanowski/BeagleBoneBlack-GPIO
 
 - O microcontrolador utilizado deve ser capaz de realizar a leitura de portas digitais, comunicar com o controlador de motores e aceitar a utilização de diversas bibliotecas de programação necessárias, como a do controlador EPOS fornecido pela própria Maxon (Programação em C++ e Linux). A Beagle Black Bone atende a todos esses requisitos.
 
