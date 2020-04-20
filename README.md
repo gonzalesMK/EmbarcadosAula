@@ -17,9 +17,9 @@ O seguinte projeto está sendo desenvolvido para a discplina de Sistemas embarca
 
 - O projeto deve ser capaz de detectar a presênça da carga para movimentação. Para isso vamos utilizar o sensor ultrasom HC-SR04, detectando a presênça a carga medindo a distância detectada. Para realizar a leitura desse sensor é necessário somente realizar a leitura de dois pinos e fazer uma contagem de tempo no software.
 
-- O microcontrolador utilizado deve ser capaz de realizar a leitura de portar digitais, comunicar com o controlador de motores e aceitar a utilização de diversas bibliotecas de programação necessárias, como a do controlador EPOS fornecido pela própria Maxon. A Beagle Black Bone atende a todos esses requisitos.
+- O microcontrolador utilizado deve ser capaz de realizar a leitura de portas digitais, comunicar com o controlador de motores e aceitar a utilização de diversas bibliotecas de programação necessárias, como a do controlador EPOS fornecido pela própria Maxon (Programação em C++ e Linux). A Beagle Black Bone atende a todos esses requisitos.
 
-- O projeto deve ser capaz de segurar uma carga leve e não derruba-la enquanto ele realiza o seu movimento. O acionamento da garra sera feito por meio de um servo motor. 
+- O projeto deve ser capaz de segurar uma carga leve e não derruba-la enquanto ele realiza o seu movimento. O acionamento da garra sera feito por meio de um servo motor. Talvez seja necessário colocar fica grudante na ponta para garantir aderência.
 
 - A movimentação do pick and place será feito atráves da interação de um mecanismo com a rotação do motor. A ideia e utilizar o controlador para movimentar o motor a quantidade certa de forma a criar um movimento pausado e com precisão. Um exemplo da mecânica do projeto pode ser visto no link a seguir: https://www.youtube.com/watch?v=Ghc_rZ49Q8A&feature=youtu.be.
 
