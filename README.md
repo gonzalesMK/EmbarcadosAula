@@ -6,7 +6,7 @@ O seguinte projeto está sendo desenvolvido para a discplina de Sistemas embarca
 ![Mecânica imaginada até o momento](https://i.imgur.com/e1GqOqN.png)
 
 ## Integrantes:
-
+- Lucca Neves Maitan (9805376)
 
 ## Materiais:
 - Beagle Black Bone.
