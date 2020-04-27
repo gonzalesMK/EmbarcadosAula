@@ -19,7 +19,7 @@ O objetivo do projeto é desenvolver um sistema de pick and place de um grau de 
 
 ## Requisitos:
 
-- O projeto deve ser capaz de mover o motor de tal forma que o posicionamento final da carga seja precisa em relação às posições. Também é necessário que o movimento do pick and place seja suave e que já ocorra overshhot grande das posições. 
+- O projeto deve ser capaz de mover o motor de tal forma que o posicionamento final da carga seja precisa em relação às posições. Também é necessário que o movimento do pick and place seja suave e que ocorra overshoot pequeno ou nulo durante o movimento entre as posições. 
 
 - O projeto deve ser capaz de detectar a presença da carga para movimentação. 
 
