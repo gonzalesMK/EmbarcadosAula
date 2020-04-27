@@ -3,7 +3,9 @@
 ## Descrição
 O objetivo do projeto é desenvolver um sistema pick and place de um grau de liberdade que seja capaz de detectar a presença de uma carga em um local e move-lo para outro lugar específico dentro de alguns requisitos de tempo e performance. Esse projeto está sendo desenvolvido para a discplina de Sistemas Embarcados (SEM0544, 1o semestre de 2020) do Curso de Engenharia Mecatrônica EESC-USP.
 
-![Mecânica imaginada até o momento](https://i.imgur.com/e1GqOqN.png)
+<p align="center">
+  <img width="460" height="300" src="https://i.imgur.com/e1GqOqN.png">
+</p>
 
 ## Integrantes:
 - Lucca Neves Maitan (9805376)
@@ -45,6 +47,8 @@ O objetivo do projeto é desenvolver um sistema pick and place de um grau de lib
 
 - Como o objeto movido será em formato de caixa, poderá ser projetada uma garra com movimento paralelo, maximizando a área de contato e por consequência o atrito. A garra poderá ser feita por manufatura aditiva, facilitando a fabricação e o encaixe das partes e do atuador.
 
-![Imgur](https://i.imgur.com/LR2q6nK.jpg)
+<p align="center">
+  <img width="460" height="300" src="https://i.imgur.com/LR2q6nK.jpg">
+</p>
 
 
