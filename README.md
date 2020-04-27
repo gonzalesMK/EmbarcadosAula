@@ -3,6 +3,8 @@
 ## Descrição
 O seguinte projeto está sendo desenvolvido para a discplina de Sistemas embarcados do curso de engenharia mecatrônica. O objetivo do projeto é desenvolver um sistema de pick and place de um grau de liberdade que seja capaz de detectar a presênça de uma carga, realizar a sua movimentação, agarrar o objeto e leva-lo para outro lugar. Esse projeto está sendo desenvolvido para a discplina de Sistemas Embarcados (SEM0544, 1o semestre de 2020) do Curso de Engenharia Mecatrônica EESC-USP.
 
+![Mecânica imaginada até o momento](https://i.imgur.com/e1GqOqN.png)
+
 ## Integrantes:
 
 
