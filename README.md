@@ -19,7 +19,7 @@ O seguinte projeto está sendo desenvolvido para a discplina de Sistemas embarca
 
 - O microcontrolador utilizado deve ser capaz de realizar a leitura de portas digitais, comunicar com o controlador de motores e aceitar a utilização de diversas bibliotecas de programação necessárias, como a do controlador EPOS fornecido pela própria Maxon (Programação em C++ e Linux). 
 
-- O projeto deve ser capaz de segurar uma carga leve e não derruba-la 90% das vezes enquanto ele realiza o seu movimento.
+- O projeto deve ser capaz de segurar uma carga leve e não derruba-la 90% das vezes enquanto ele realiza o seu movimento do ponto final ao inicial.
 
 - A movimentação do pick and place será feito atráves da interação de um mecanismo com a rotação do motor. O tempo de realização do ciclo de pegar e soltar a carga deve ser de aproximadamente 5 segundos. 
 
