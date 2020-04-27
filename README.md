@@ -1,7 +1,7 @@
 # Projeto Pick and Place
 
 ## Descrição
-O objetivo do projeto é desenvolver um sistema de pick and place de um grau de liberdade que seja capaz de detectar a presença de uma carga em um local, realizar a sua movimentação, agarrar o objeto e leva-lo para outro lugar específico. Esse projeto está sendo desenvolvido para a discplina de Sistemas Embarcados (SEM0544, 1o semestre de 2020) do Curso de Engenharia Mecatrônica EESC-USP.
+O objetivo do projeto é desenvolver um sistema pick and place de um grau de liberdade que seja capaz de detectar a presença de uma carga em um local e move-lo para outro lugar específico dentro de alguns requisitos de tempo e performance. Esse projeto está sendo desenvolvido para a discplina de Sistemas Embarcados (SEM0544, 1o semestre de 2020) do Curso de Engenharia Mecatrônica EESC-USP.
 
 ![Mecânica imaginada até o momento](https://i.imgur.com/e1GqOqN.png)
 
@@ -27,7 +27,7 @@ O objetivo do projeto é desenvolver um sistema de pick and place de um grau de 
 
 - A estrutura mecânica deve ser firme e permitir um movimento suave nas articulações.
 
-- O sistema deve conseguir pegar um objeto com dimensões A x B x C mm e soltá-lo para uma distância de D mm a partir do ponto de coleta. As dimensões do sistema 4 barras e o projeto mecânico da estrutura será realizado a partir das dimensões especificadas.
+- O sistema deve conseguir pegar um objeto com dimensões A x B x C mm e soltá-lo para uma distância de D mm a partir do ponto de coleta. As dimensões do sistema 4 barras e do projeto mecânico da estrutura será calculada a partir dessas dimensões especificadas.
 
 - A movimentação do pick and place será feito atráves da interação de um mecanismo com a rotação do motor. O tempo de realização do ciclo de pegar e soltar a carga deve ser de aproximadamente 5 segundos. 
 
@@ -41,6 +41,8 @@ O objetivo do projeto é desenvolver um sistema de pick and place de um grau de 
 
 - A ideia é utilizar o controlador para movimentar o motor a quantidade certa de forma a criar um movimento pausado e com precisão. Um exemplo da mecânica do projeto pode ser visto no link a seguir: https://www.youtube.com/watch?v=Ghc_rZ49Q8A&feature=youtu.be.
 
-- Planeja-se construir a estrutura e o mecanismo a partir de barras vazadas de perfil quadrado de aproximandamente E x E mm, por conta de sua alta resistência em conjunto com o baixo peso. As articulações poderão ser feitas a partir de parafuso e porca através de furos nas barras, procedimento já realizado com sucesso em projetos anteriores. caso seja verificado atrito alto 
+- Planeja-se construir a estrutura e o mecanismo a partir de barras vazadas de perfil quadrado de aproximandamente E x E mm, por conta de sua alta resistência em conjunto com o baixo peso. As articulações poderão ser feitas a partir de parafuso e porca através de furos nas barras, procedimento já realizado com sucesso em projetos anteriores.
+
+- Como o objeto movido será em formato de caixa, poderá ser projetada uma garra com movimento paralelo, maximizando a área de contato e por consequência o atrito. A garra poderá ser feita por manufatura aditiva, facilitando a fabricação e o encaixe das partes e do atuador.
 
 
