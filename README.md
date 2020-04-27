@@ -45,4 +45,6 @@ O objetivo do projeto é desenvolver um sistema pick and place de um grau de lib
 
 - Como o objeto movido será em formato de caixa, poderá ser projetada uma garra com movimento paralelo, maximizando a área de contato e por consequência o atrito. A garra poderá ser feita por manufatura aditiva, facilitando a fabricação e o encaixe das partes e do atuador.
 
+![Imgur](https://i.imgur.com/LR2q6nK.jpg)
+
 
