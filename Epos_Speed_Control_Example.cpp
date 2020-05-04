@@ -37,12 +37,13 @@ void Motor_Init(){
 	
 }
 
-void Get_Position(){
+int Get_Position(){
 	unsigned int pErrorCode = false;
 	unsigned int lErrorCode = false;
 	int posEpos = 0;
 	
-	VCS_GetPositionIs(g_pKeyHandle, g_usNodeId, &posEpos, &pErrorCode);	
+	VCS_GetPositionIs(g_pKeyHandle, g_usNodeId, &posEpos, &pErrorCode);
+        return posEpos;	
 	
 }
 
