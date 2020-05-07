@@ -34,7 +34,7 @@ double HC_SR04() {
   }
   std::chrono::steady_clock::time_point end = std::chrono::steady_clock::now();
 	  
-  std::chrono::duration<double> elapsed = (end - begin)/1000000;
+  std::chrono::duration<double> elapsed = (end - begin).count()/1000000;
   
   gp->~GPIOManager();
 	  
