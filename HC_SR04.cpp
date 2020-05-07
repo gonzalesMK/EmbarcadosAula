@@ -29,8 +29,8 @@ double HC_SR04() {
       
   std::chrono::steady_clock::time_point begin = std::chrono::steady_clock::now();
       
-  while(gp->setValue(pin1) != 1){
-  	//TALVEZ SEJA NECESSÁRIO ALTERAR O RETURN DA FUNÇÃO NO HEADER; TIRAR O IF
+  while(!gp->setValue(pin1)){
+  	
   }
   std::chrono::steady_clock::time_point end = std::chrono::steady_clock::now();
 	  
