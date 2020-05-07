@@ -51,4 +51,5 @@ O objetivo do projeto é desenvolver um sistema pick and place de um grau de lib
   <img width="460" height="300" src="https://i.imgur.com/LR2q6nK.jpg">
 </p>
 
+- Será necessário configurar a rede CAN para a BBB. Tutorial: https://www.embarcados.com.br/can-com-beaglebone-black-e-python/
 
