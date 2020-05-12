@@ -8,6 +8,7 @@ O objetivo do projeto é desenvolver um sistema pick and place de um grau de lib
 </p>
 
 ## Integrantes:
+- Eduardo Moraes Quirino (9805056)
 - Lucca Neves Maitan (9805376)
 - Matheus Passaura Marcolino (9805171)
 
