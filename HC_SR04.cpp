@@ -29,7 +29,7 @@ double HC_SR04() {
       
   std::chrono::steady_clock::time_point begin = std::chrono::steady_clock::now();
       
-  while(!gp->setValue(pin1)){
+  while(!gp->getValue(pin1)){
   	
   }
   std::chrono::steady_clock::time_point end = std::chrono::steady_clock::now();
