@@ -7,7 +7,6 @@
 #include <stdio.h>
 #include <math.h>
 #include <sys/types.h>
-#include <unistd.h>
 
 using namespace std;
 
