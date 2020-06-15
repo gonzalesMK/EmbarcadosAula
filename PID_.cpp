@@ -63,7 +63,7 @@ void Speed_Control(int speed){
 
 }
 
-void PID(int kp,int kd,int ki,double to,int pos){
+void PID(double  kp,double  kd,double  ki,double to,int pos){
     double static integral;
     int static last_erro;
     int speed;
