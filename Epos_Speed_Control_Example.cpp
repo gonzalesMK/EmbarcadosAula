@@ -20,12 +20,12 @@ void Motor_Init(){
 	
 	if((lResult = OpenDevice(&ulErrorCode))!=MMC_SUCCESS){
 		LogError("OpenDevice", lResult, ulErrorCode);
-		return lResult;
+		//return lResult;
 	}
 	
 	if((lResult = PrepareDemo(&ulErrorCode))!=MMC_SUCCESS){
 		LogError("PrepareDemo", lResult, ulErrorCode);
-		return lResult;
+		//return lResult;
 	}
 	
 }
@@ -47,7 +47,7 @@ void Motor_End(){
 	
 	if((lResult = CloseDevice(&ulErrorCode))!=MMC_SUCCESS){
 		LogError("CloseDevice", lResult, ulErrorCode);
-		return lResult;
+		//return lResult;
 	}	
 	VCS_SetDisableState(g_pKeyHandle, g_usNodeId, &lErrorCode);//desativar controle
 }
