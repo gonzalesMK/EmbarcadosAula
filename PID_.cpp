@@ -96,14 +96,14 @@ int main()
     double pos_des = 30;
 	//VCS_SetDisableState(g_pKeyHandle, g_usNodeId, &lErrorCode);
 	Motor_Init();
-	//VCS_ActivateProfilePositionMode(g_pKeyHandle, g_usNodeId, &pErrorCode);
-	VCS_ActivateProfileVelocityMode(g_pKeyHandle, g_usNodeId, &pErrorCode);
+	VCS_ActivateProfilePositionMode(g_pKeyHandle, g_usNodeId, &pErrorCode);
+	//VCS_ActivateProfileVelocityMode(g_pKeyHandle, g_usNodeId, &pErrorCode);
 	pos_off=Get_Position();
-    double pos_des = 30;
-	//Move_to_Pos(pos_des);
-    PID(1,0,0.01,0.01,pos_des);
-	VCS_HaltVelocityMovement(g_pKeyHandle, g_usNodeId, &pErrorCode);
-	//VCS_HaltPositionMovement(g_pKeyHandle, g_usNodeId, &pErrorCode);
+    //double pos_des = 30;
+	Move_to_Pos(pos_des);
+    //PID(1,0,0.01,0.01,pos_des);
+	//VCS_HaltVelocityMovement(g_pKeyHandle, g_usNodeId, &pErrorCode);
+	VCS_HaltPositionMovement(g_pKeyHandle, g_usNodeId, &pErrorCode);
 	VCS_SetDisableState(g_pKeyHandle, g_usNodeId, &lErrorCode);//dar disable no controle da epos
 	Motor_End();
 	return 0;
