@@ -31,7 +31,7 @@ O objetivo do projeto é desenvolver um sistema pick and place de um grau de lib
 
 - A estrutura mecânica deve ser firme e permitir um movimento suave nas articulações.
 
-- O sistema deve conseguir pegar um objeto com dimensões A x B x C mm e soltá-lo para uma distância de D mm a partir do ponto de coleta. As dimensões do sistema 4 barras e do projeto mecânico da estrutura será calculada a partir dessas dimensões especificadas.
+- O sistema deve conseguir pegar um objeto com dimensões 20 x 20 x 20 mm e soltá-lo para uma distância de 100 mm a partir do ponto de coleta. As dimensões do sistema 4 barras e do projeto mecânico da estrutura será calculada a partir dessas dimensões especificadas.
 
 - A movimentação do pick and place será feito atráves da interação de um mecanismo com a rotação do motor. O tempo de realização do ciclo de pegar e soltar a carga deve ser de aproximadamente 5 segundos. 
 
